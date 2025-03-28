@@ -8,5 +8,5 @@ setup(
     description='A library to decode Galileo HAS messages and convert the data into IGS or RTCM3 messages. Supported input types are: SBF & BINEX via files, TCP clients and Serial ports. The output can be written to a TCP server or a file according to user requirements',
     author='Oliver Horst / FGI',
     license_files = ('Licence.txt','Notice.txt'),
-    install_requires=['numpy', 'reedsolo', 'galois', 'serial'],
+    install_requires=['numpy', 'reedsolo', 'galois', 'pyserial'],
 )
